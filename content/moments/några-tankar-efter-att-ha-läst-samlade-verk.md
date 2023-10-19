@@ -1,0 +1,17 @@
+---
+title: "Några tankar efter att ha läst Samlade verk"
+date: 2020-09-07T10:47:37+02:00
+draft: false
+---
+
+![Samlade verk](/images/samlade-verk.png)
+
+Det förefaller mig lite märkligt att den uppblossade debatten kring Lydia Sandgrens debutbok i viss mån har handlat om huruvida romanen är ironisk eller inte. Att den innehåller ironi i sin blick på manlig "genialitet" råder det nämligen för mig ingen tvekan om. Det framkommer tydligt t.ex. i de intervjusvar som inleder många kapitel där Martin, hypotetisk iklädd rollen som litterärt geni, får frågor om sitt författarskap och med största allvar levererar den ena klyschan efter den andra citerandes Hemingway och andra litterära storheter.  
+
+Vad jag hakade upp mig på var i stället hur det realistiska anslaget får något orealistiskt över sig när det kommer till vissa människors förmåga att minnas i precisa dialoger snarare än i övergripande drag. Jag tänker främst på när Elis och Rakel konfronterar Frederikke med uppgifter om att hon nog visst känner till var Cecilia håller hus varefter Frederikke återger vad hon vet. "Det är nog bäst att jag tar det från början", säger hon, men hennes återgivning av förloppet övergår snart till en dialog i presens av händelser som skedde för mer än 30 år sedan. Att Frederikke skulle minnas dessa replikskiften och detaljerade händelseförlopp framstår inte som sannolikt. Här skulle jag säga att det märks att författaren är debutant och har skrivit boken i fragment under lång tid och sedan försökt att nysta ihop bitarna till en enhet. 
+
+Ändå är det en beundransvärd debut och en bok som är stundtals svår att lägga ifrån sig. Det som för romanen framåt och bidrar till spänningen är främst mysteriet kring Cecilia och hennes försvinnande och därför är också andra halvan bättre eftersom hon där tilldelas ett större utrymme och allt fler förklaringar kring vem hon är nystas upp.
+
+Vad vill romanen förmedla? Kanske att framgång inom kreativt skapande kan komma till en genom stark fallenhet och periodvis hängivelse, som i fallet Gustav, eller också genom idogt och enträget arbete som för Cecilia. Martin, som varken har passionen eller arbetsmoralen som krävs för att ro det egna skrivandet i hamn, faller således till korta här. Men han växer å andra sidan in i rollen som ansvarstagande familjefar och förläggare och förmår med tiden också om inte  uppskatta så åtminstone se vissa förtjänster med sin lott, även om författardrömmarna återkommande skaver. Vad boken i den bemärkelsen "vill säga" är kanske en smula banalt, men det är heller inte budskapet som är poängen. Snarare är det att under en tidsperiod som varar 700 sidor få sjunka in i en miljö som är behagligt välbekant men ändå främmande; att få vistas där, kravlöst, mitt i vänskaps- och kärleksbanden som uppstår och utvecklas mellan karaktärerna i den mestadels urbana miljö de tar i besittning årtionde efter årtionde. Romanen är också en kärleksförklaring till staden Göteborg där den huvudsakligen utspelar sig och Lydia fångar med omsorgsfulla och träffande penseldrag inte bara huvudkaraktärerna utan även platserna där de befinner sig. Det märks att hon väl känner till och håller av staden. 
+
+Men även om romanen har många styrkor har den också en allvarlig brist, som jag omnämnt, knutet till en berättarröst som famlar mellan ett allomfattande perspektiv och en specifik karaktärs. Det skapar mitt i all realism ett visst trovärdighetsproblem som tar ner omdömet och får mig att inte riktigt ta till samma superlativer som vissa recensenter.
