@@ -9,10 +9,6 @@ rssLimit = 20
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-
-
-disableKinds = ["taxonomy"]
-
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
 enableEmoji = false
