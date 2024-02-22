@@ -1,6 +1,18 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+categories: [x,y]
+footnotes: false
+htmlwidgets: false
+mathjax: false
 ---
+
+
+{{% figure src="" alt="" caption="" %}}
+
+
+{{< highlight r >}}
+
+
+{{< /highlight >}}
 
