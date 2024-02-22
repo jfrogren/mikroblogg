@@ -15,4 +15,3 @@ if (window.hljs) {
 } else {
   Even.chroma();
 }
-

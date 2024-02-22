@@ -1,14 +1,15 @@
-<div class="logo-wrapper">
+<div class="logo-wrapper scp">
   <a href="{{ "/" | relLangURL }}" class="logo">
     {{- if .Site.Params.logoTitle -}}
       {{ .Site.Params.logoTitle }}
     {{- else -}}
       {{ .Site.Title }}
-    {{- end -}}
-  </a>
-</div>
+    {{- end -}}</a>&thinsp; &middot; &thinsp; 
 
-{{ partial "header/language-selector.html" . }}
+<a href="https://mastodon.social/@kjhealy" class="logo" title="Mastodon"><img class="icon-svg" src = "/icons/mastodon.svg"></a>
+<a href="https://github.com/kjhealy" class="logo" title="GitHub"><img class="icon-svg" src = "/icons/github.svg"></a>
+<a href="https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en" class="logo" title="Google Scholar"><img class="icon-svg" src = "/icons/googlescholar.svg"></a>
+</div>
 
 <nav class="site-navbar">
   <ul id="menu" class="menu">
@@ -19,3 +20,6 @@
     {{- end }}
   </ul>
 </nav>
+
+
+

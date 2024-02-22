@@ -7,8 +7,11 @@
 
   @for $i from 1 through 6 {
     h#{$i} {
-      font-weight: 400;
+      //font-weight: 600;
+      font-weight: normal;
       font-family: $global-serif-font-family;
+      margin-top: 1.5em;
+      margin-bottom: -0.5em;
 
       .anchor {
         float: left;
@@ -23,7 +26,6 @@
         .icon-link {
           visibility: hidden;
           font-size: 16px;
-          display: contents;
 
           &:before {
             vertical-align: middle;
@@ -41,7 +43,6 @@
 
   a {
     color: $theme-color;
-    word-break: break-all;
 
     &:hover {
       border-bottom: $content-link-border;
@@ -62,7 +63,7 @@
     box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
 
     p {
-      margin: 0;
+        margin: 0;
     }
   }
 
@@ -89,9 +90,11 @@
         border: 1px double $content-table-border-color;
       }
 
-      tr:hover {
-        background-color: $deputy-color;
-      }
+      tr:nth-child(even) {background-color: #f9f9f9;}
+
+      // tr:hover {
+      //   background-color: $deputy-color;
+      // }
     }
   }
 
@@ -174,7 +177,7 @@
   }
 
   .task-list {
-    list-style: none;
+    list-style-type: none;
     padding-left: 1.5rem;
   }
 
