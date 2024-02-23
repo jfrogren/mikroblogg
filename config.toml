@@ -14,7 +14,7 @@ ignoreErrors = ["error-disable-taxonomy"] # you will get a console error message
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
 enableEmoji = false
-theme = ["hugo-video"]
+theme = ["hugo-video", "even"]
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsOptions = "linenos=table"
