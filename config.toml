@@ -10,6 +10,7 @@ publishdir = "public"
 
 
 disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"] # you will get a console error message without this
 
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
