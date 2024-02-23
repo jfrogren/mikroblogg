@@ -28,7 +28,7 @@ unsafe = true
 
 
 [author]                  # essential
-  name = "Kieran Healy"
+  name = "Joakim Frögren"
 
 [sitemap]                 # essential
   changefreq = "weekly"
@@ -74,7 +74,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-  since = "1995"            # Site creation time
+  since = "2018"            # Site creation time
   # site info (optional)
   logoTitle = "kieran healy"        # default: the title value
   keywords = ["", "",""]
