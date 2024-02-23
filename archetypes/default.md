@@ -1,18 +1,7 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "{{ replaceRE "[[:^alpha:]]" " " .Name | humanize }}"
 date: {{ .Date }}
-categories: [x,y]
-footnotes: false
-htmlwidgets: false
-mathjax: false
+draft: false
+categories: [""]
 ---
-
-
-{{% figure src="" alt="" caption="" %}}
-
-
-{{< highlight r >}}
-
-
-{{< /highlight >}}
 

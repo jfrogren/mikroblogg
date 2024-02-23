@@ -6,7 +6,7 @@
 
 {{- if not $paginator.HasPrev }}
 <section id="pubs" class="archive">
-<h1>Some Favorite Things</h1>  
+<h1>Några favoriter</h1>
 
   {{ range (where .Site.RegularPages "Section" "blog") }}  
   {{ if .Params.fave }}
@@ -27,7 +27,7 @@
 
 <section id="archive" class="archive">
 
-<h1>All Posts</h1>
+<h1>Alla blogginlägg</h1>
   
   {{- if and (not $paginator.HasPrev) .Site.Params.showArchiveCount }}
     <div class="archive-title">
@@ -47,7 +47,7 @@
     {{- end }}
 
       <span class="archive-post-time">
-        <em>{{ $element.Date.Format "January 2" }}</em> &nbsp;
+        <em>{{ .Date.Day }} {{ i18n (printf "long_month_%d" .PublishDate.Month) }}</em>&nbsp;
       </span>
       <span class="post-title">
         <a href="{{ $element.RelPermalink }}" class="archive-post-link">

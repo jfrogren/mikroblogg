@@ -9,8 +9,8 @@ rssLimit = 20
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-languageCode = "en"
-defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
+languageCode = "sv"
+defaultContentLanguage = "sv"                             # en / zh-cn / ... (This field enableRobotsTXT = true
 enableEmoji = false
 theme = ["hugo-video", "even"]
 
@@ -63,7 +63,7 @@ unsafe = true
   weight = 5.0
 
   [[menu.main]]
-  name = "Blog"
+  name = "Blogg"
   url = "/blog"
   weight = 6.0
 
@@ -76,7 +76,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
   since = "2018"            # Site creation time
   # site info (optional)
-  logoTitle = "kieran healy"        # default: the title value
+  logoTitle = "joakim frögren"        # default: the title value
   keywords = ["", "",""]
   description = "."
 
@@ -90,7 +90,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   showArchiveCount = false
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "January 2, 2006"
+  dateFormatToUse = "2006-01-02"
 
   # show word count and read time ?
   moreMeta = false
@@ -118,7 +118,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = ['dark.css','bigfoot-default.css','codeblock.css','mine.css','codeblock.css','dark.css','demo.css','kube.css','kube.min.css','syntax.css']
+  customCSS = ['dark.css','bigfoot-default.css','codeblock.css','mine.css','codeblock.css']
   customJS = ['bigfoot.min.js','codeblock.js']
 
   uglyURLs = false          # please keep same with uglyurls setting
@@ -183,5 +183,5 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 # disableKinds = "taxonomyTerm"
 # preserveTaxonomyNames = true
 
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+# disableKinds = ["taxonomy"]
+# ignoreErrors = ["error-disable-taxonomy"]

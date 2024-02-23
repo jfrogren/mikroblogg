@@ -1,7 +1,7 @@
-### Build and deploy http://kieranhealy.org
+### Build and deploy http://mb.frogren.se
 
-SSH_USER = khealy@kieranhealy.org
-DOCUMENT_ROOT = ~/kieranhealy.org
+SSH_USER = joakim@frogen.se
+DOCUMENT_ROOT = ~/mb.frogren.se
 PUBLIC_DIR = public/
 
 all: deploy
