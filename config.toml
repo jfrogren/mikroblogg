@@ -118,7 +118,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = ['dark.css','bigfoot-default.css','codeblock.css']
+  customCSS = ['dark.css','bigfoot-default.css','codeblock.css', 'mine.css']
   customJS = ['bigfoot.min.js','codeblock.js']
 
   uglyURLs = false          # please keep same with uglyurls setting
@@ -182,5 +182,6 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
 # disableKinds = "taxonomyTerm"
 # preserveTaxonomyNames = true
+
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]

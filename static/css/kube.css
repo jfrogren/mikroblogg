@@ -242,7 +242,7 @@ img {
 /* =Typography
 -----------------------------------------------------------------------------*/
 body {
-  font-family: "Alegreya", Helvetica, Tahoma, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
   font-size: 0.9375em;
   line-height: 1.65em;
   background: #ffffff;
@@ -271,7 +271,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Alegreya", Helvetica, Tahoma, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
   font-weight: bold;
   color: #000000;
   text-rendering: optimizeLegibility;
