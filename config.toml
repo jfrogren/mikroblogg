@@ -8,14 +8,13 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"] # you will get a console error message without this
 
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
 enableEmoji = false
-theme = ["hugo-video", "even"]
+theme = ["hugo-video"]
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsOptions = "linenos=table"
