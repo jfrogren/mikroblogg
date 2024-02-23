@@ -182,5 +182,5 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
 # disableKinds = "taxonomyTerm"
 # preserveTaxonomyNames = true
-
+disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
