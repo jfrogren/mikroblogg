@@ -42,7 +42,7 @@
 <br />  
 <h1>Nya bloggposter</h1>
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
-  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3><p> <em>{{ .Date.Format "2 January 2006" }}</em>
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3><p> <em>{{ .Date.Day }} {{ i18n (printf "long_month_%d" .PublishDate.Month) }}</em>
 <!-- 
   {{ if .Truncated }}
   {{ .Summary }}
