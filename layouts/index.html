@@ -1,13 +1,13 @@
 {{- define "content" -}}
 
-<p>I am Professor of <a href = "https://sociology.duke.edu">Sociology</a> at <a href = "https://www.duke.edu">Duke University</a>. &rarr; <a href = "about/">More about me.</a>
+<p> Välkommen till min hemsida. &rarr; <a href = "about/">Mer om mig.</a>
 
 <!--Mastodon verify-->
 <a rel="me" href="https://mastodon.social/@kjhealy">&nbsp;</a>
 </p>
 
 <section id="pubs" class="pubs">
-<h1>Some of my Work</h1>  
+<h1>Några av mina arbeten</h1>
 <ul>
   {{ range (where .Site.RegularPages "Section" "in" (slice "publications")) }}  
 
@@ -40,7 +40,7 @@
 </section>
 <section id="posts" class="posts">
 <br />  
-<h1>Recent Writing</h1>  
+<h1>Nya bloggposter</h1>
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
   <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3><p> <em>{{ .Date.Format "2 January 2006" }}</em>
 <!-- 
@@ -48,7 +48,7 @@
   {{ .Summary }}
  -->
  {{ .Summary }}
-  &nbsp; <em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
+  &nbsp; <em><a href="{{ .RelPermalink }}">Fortsatt läs…</a></em></p>
 <!-- 
   {{ else }}
   {{ .Content }}

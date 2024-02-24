@@ -71,7 +71,7 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-serif-font-family: 'valkyrie_ot_a', sans-serif !default;
+$global-serif-font-family: 'alegreya', serif !default;
 
 // Serif font family of the site.
 $global-font-family: 'valkyrie_ot_a', serif !default;
@@ -90,21 +90,22 @@ $global-headings: (
 ) !default;
 
 
+
 // ========== Header ========== //
 // Padding of the site header.
 $header-padding: 20px 20px !default;
 
 // Font family: 
 @font-face {
-  font-family: 'valkyrie_ot_a', input-sans, sans-serif;
+  font-family: 'alegreya', serif;
 //  font-style: bold;
 }
 
 // Font size of the logo.
-$logo-font-size: 18px !default;
+$logo-font-size: 20px !default;
 
 // Font family of the logo.
-$logo-font-family: 'valkyrie_ot_a', serif !default;
+$logo-font-family: 'alegreya', serif !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;
@@ -113,7 +114,7 @@ $menu-item-margin-left: 10px !default;
 $menu-item-mobile-margin: 5px !default;
 
 // Font size of menu item link.
-$menu-link-font-size: 18px !default;
+$menu-link-font-size: 19px !default;
 
 // Height of the mobile header.
 $mobile-navbar-height: 50px !default;
