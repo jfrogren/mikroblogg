@@ -43,22 +43,22 @@ unsafe = true
 [menu]
 
   [[menu.main]]
-  name = "Publications"
+  name = "Publicerat"
   url = "/publications"
   weight = 2.0
 
   [[menu.main]]
-  name = "Resources"
+  name = "Resurser"
   url = "/resources"
   weight = 3.0
 
   [[menu.main]]
-  name = "Teaching"
+  name = "Undervisning"
   url = "/teaching"
   weight = 4.0
 
   [[menu.main]]
-  name = "Prints"
+  name = "Aktuellt"
   url = "/prints"
   weight = 5.0
 

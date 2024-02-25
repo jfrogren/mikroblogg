@@ -1,37 +1,8 @@
 {{- define "content" -}}
 
-<p> Välkommen till min hemsida. &rarr; <a href = "about/">Mer om mig.</a>
+<p> Välkommen till min hemsida! Den här platsen är tänkt som en slags ventil för mina lösa tankar och funderingar king det som jag tar intryck av. Främst utgör den ett sätt för mig själv att dokumentera, sortera och bygga upp ett slags personligt arkiv. Men den kan också tjäna som inspiration för andra som råkar ha vägarna förbi. Mycket nöje!  &rarr; <a href = "about/">Mer om mig.</a>
 
-<!--Mastodon verify-->
-<a rel="me" href="https://mastodon.social/@kjhealy">&nbsp;</a>
-</p>
 
-<section id="pubs" class="pubs">
-<h1>Några av mina arbeten</h1>
-<ul>
-  {{ range (where .Site.RegularPages "Section" "in" (slice "publications")) }}  
-
-  {{ if .Params.fave }}
-
-  {{ if .Params.citation }}
-  <li>
-    {{ .Params.citation | safeHTML }}     
-    {{ if isset .Params "file" }} »  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">pdf</a>{{ end }}
-    {{ if isset .Params "overview" }} » <a class="scp" href="{{ .Permalink }}">overview</a> {{ end }}
-<!--    {{ if isset .Params "buy" }} {{ .Params.buy | safeHTML }} {{ end }} -->
-  </li>
-
-  {{ else }}
-
-    <li>
-      <a href="{{ .Permalink }}"> {{ .Params.title | safeHTML }} </a>
-    </li>
-
-  {{ end }}
- 
-  {{ end }}
-
-  {{ end }}
   
 </ul>  
 </section>
@@ -40,7 +11,7 @@
 </section>
 <section id="posts" class="posts">
 <br />  
-<h1>Nya bloggposter</h1>
+<h1>Senaste blogginläggen</h1>
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
   <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3><p> <em>{{ .Date.Day }} {{ i18n (printf "long_month_%d" .PublishDate.Month) }}</em>
 <!-- 
